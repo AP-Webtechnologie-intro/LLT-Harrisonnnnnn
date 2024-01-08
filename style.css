@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Madurai", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(afbeeldingen/Stadion-wedstrijd-01-min.jpg) center/cover;
+  position: relative;
+}
+
+nav img {
+  height: 90px;
+  width: 150px;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  text-align: right;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  text-align: none;
+  font-size: 17px;
+  color: #fff;
+}
+
+.nav-links ul li ::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #111c98;
+  margin: auto;
+  display: block;
+  transition: 0.5s;
+}
+.nav-links ul li :hover::after {
+  color: #111c98;
+  width: 100%;
+}
+
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box {
+  font-size: 22px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font: 14px;
+  color: #fff;
+}
+.over-mij {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.over-mij2 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  flex-basis: 31%;
+  background: #111c98;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  color: white;
+  transition: 0.5s;
+}
+
+.row {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.row :hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: black;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin: 30px;
+}
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div .fa {
+  font-size: 28px;
+  color: #111c98;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-col div p {
+  padding: 0;
+  font-size: 15px;
+}
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+}
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #111c98;
+}
+
+#map {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.hero-btn red-btn {
+  background-color: #111c98;
+}
+.zes-onderdelen {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.zes-onderdelentwee {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.course-col {
+  flex-basis: 31%;
+  background-color: #111c98;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col :hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.foto-clubs img {
+  max-width: 15%; /* Zorgt ervoor dat de afbeeldingen niet breder zijn dan hun container */
+  height: auto;
+  margin-bottom: 20px;
+  margin-right: 2px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.foto-clubs {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.foto-clubstwee img {
+  display: block;
+  max-width: 10%;
+  height: auto;
+  margin-bottom: 5px; /* Aangepaste waarde, verlaag de ruimte tussen afbeeldingen en tekstblokken */
+  margin-right: 1px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.foto-clubstwee {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin: 30px;
+}
