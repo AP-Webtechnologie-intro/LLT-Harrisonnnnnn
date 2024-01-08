@@ -89,7 +89,7 @@ nav {
 
 .row {
   flex-basis: 31%;
-  background: #111c98;
+  background: #6acaf0;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -149,7 +149,7 @@ footer {
 }
 .contact-col div .fa {
   font-size: 28px;
-  color: #111c98;
+  color: #6acaf0;
   margin: 10px;
   margin-right: 30px;
 }
@@ -168,7 +168,7 @@ footer {
   padding: 15px;
   margin-bottom: 17px;
   outline: none;
-  border: 1px solid #111c98;
+  border: 1px solid #6acaf0;
 }
 
 #map {
@@ -178,7 +178,7 @@ footer {
   padding: 80px 0;
 }
 .hero-btn red-btn {
-  background-color: #111c98;
+  background-color: #6acaf0;
 }
 .zes-onderdelen {
   margin-top: 5%;
@@ -194,7 +194,7 @@ footer {
 }
 .course-col {
   flex-basis: 31%;
-  background-color: #111c98;
+  background-color: #6acaf0;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -245,4 +245,11 @@ h3 {
 .contact-col {
   flex-basis: 48%;
   margin: 30px;
+}
+
+h3 {
+  color: #111c98;
+}
+a {
+  text-decoration: none;
 }
