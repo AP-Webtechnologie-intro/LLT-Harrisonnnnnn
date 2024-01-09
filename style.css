@@ -253,3 +253,44 @@ h3 {
 a {
   text-decoration: none;
 }
+
+.info-tabel {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.info-links {
+  flex-basis: 65%;
+}
+
+.info-links img {
+  width: 45%;
+
+  flex-basis: 65%;
+}
+
+.info-links {
+  color: black;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.info-rechts {
+  flex-basis: 32%;
+}
+.info-rechts h4 {
+  background: #6acaf0;
+  color: white;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.info-rechts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #6acaf0;
+  padding: 8px;
+  box-sizing: border-box;
+}
