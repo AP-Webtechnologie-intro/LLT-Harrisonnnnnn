@@ -1,3 +1,4 @@
+/* Algemene opmaak voor alle elementen */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Header sectie stijlen */
 .header {
   min-height: 100vh;
   width: 100%;
@@ -15,6 +17,7 @@
   z-index: 1; /* Zorg ervoor dat de banner boven de kaart ligt */
 }
 
+/* Navigatie stijlen */
 nav img {
   height: 90px;
   width: 150px;
@@ -25,6 +28,8 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Navigatie links stijlen */
 .nav-links {
   display: flex;
   text-align: right;
@@ -52,11 +57,13 @@ nav {
   display: block;
   transition: 0.5s;
 }
+
 .nav-links ul li :hover::after {
   color: #111c98;
   width: 100%;
 }
 
+/* Tekstbox stijlen */
 .text-box {
   width: 90%;
   color: #fff;
@@ -76,6 +83,8 @@ nav {
   font: 14px;
   color: #fff;
 }
+
+/* Over mij sectie stijlen */
 .over-mij {
   width: 80%;
   margin: auto;
@@ -83,12 +92,14 @@ nav {
   padding-top: 100px;
 }
 
+/* Tweede Over mij sectie stijlen */
 .over-mij2 {
   width: 80%;
   margin: auto;
   text-align: center;
 }
 
+/* Stijlen voor de 'row' elementen */
 .row {
   flex-basis: 31%;
   background: #6acaf0;
@@ -110,6 +121,7 @@ nav {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* Stijlen voor afbeeldingen */
 img {
   max-width: 100%;
   height: auto;
@@ -122,12 +134,14 @@ img {
   overflow: hidden;
 }
 
+/* Stijlen voor sociale pictogrammen */
 .social-icons i {
   font-size: 24px;
   margin: 0 10px;
   color: black;
 }
 
+/* Stijlen voor het contactformulier */
 .contact-us {
   width: 80%;
   margin: auto;
@@ -148,26 +162,31 @@ img {
   align-items: center;
   margin-bottom: 40px;
 }
+
 .contact-col div .fa {
   font-size: 28px;
   color: #6acaf0;
   margin: 10px;
   margin-right: 30px;
 }
+
 .contact-col div p {
   padding: 0;
   font-size: 15px;
 }
+
 .contact-col div h5 {
   font-size: 20px;
   margin-bottom: 5px;
   color: #555;
 }
+
 .contact-col form {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
 .contact-col input,
 .contact-col textarea {
   width: 100%;
@@ -196,6 +215,7 @@ img {
   background-color: #4f8bc9;
 }
 
+/* Stijlen voor zoekbalk */
 .search-bar {
   display: flex;
   align-items: center;
@@ -222,6 +242,7 @@ img {
   background-color: #4f8bc9;
 }
 
+/* Stijlen voor de kaart */
 #map {
   height: 400px;
   width: 80%;
@@ -231,21 +252,29 @@ img {
   margin-top: 20px; /* Of pas de gewenste margin-top aan */
   margin-bottom: 20px;
 }
+
+/* Stijlen voor de knoppen */
 .hero-btn red-btn {
   background-color: #6acaf0;
 }
+
+/* Stijlen voor sectie met zes onderdelen */
 .zes-onderdelen {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
   color: white;
 }
+
+/* Stijlen voor sectie met zes onderdelen (tweede variant) */
 .zes-onderdelentwee {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
   color: white;
 }
+
+/* Stijlen voor cursuselementen */
 .course-col {
   flex-basis: 31%;
   background-color: #6acaf0;
@@ -261,10 +290,12 @@ h3 {
   font-weight: 600;
   margin: 10px 0;
 }
+
 .course-col :hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* Stijlen voor afbeeldingen in fotoclubs sectie */
 .foto-clubs img {
   max-width: 15%; /* Zorgt ervoor dat de afbeeldingen niet breder zijn dan hun container */
   height: auto;
@@ -274,11 +305,14 @@ h3 {
   margin-top: 20px;
 }
 
+/* Stijlen voor fotoclubs sectie */
 .foto-clubs {
   display: flex;
   justify-content: space-around;
   margin: 20px;
 }
+
+/* Stijlen voor afbeeldingen in tweede fotoclubs sectie */
 .foto-clubstwee img {
   display: block;
   max-width: 10%;
@@ -290,12 +324,14 @@ h3 {
   padding: 5px;
 }
 
+/* Stijlen voor tweede fotoclubs sectie */
 .foto-clubstwee {
   display: flex;
   justify-content: space-around;
   margin: 20px;
 }
 
+/* Stijlen voor contactkolom sectie */
 .contact-col {
   flex-basis: 48%;
   margin: 30px;
@@ -308,19 +344,20 @@ a {
   text-decoration: none;
 }
 
+/* Stijlen voor informatietabel sectie */
 .info-tabel {
   width: 80%;
   margin: auto;
   padding: 60px 0;
 }
 
+/* Stijlen voor linkerkolom in informatietabel sectie */
 .info-links {
   flex-basis: 65%;
 }
 
 .info-links img {
   width: 45%;
-
   flex-basis: 65%;
 }
 
@@ -330,9 +367,11 @@ a {
   margin: 30px 0;
 }
 
+/* Stijlen voor rechterkolom in informatietabel sectie */
 .info-rechts {
   flex-basis: 32%;
 }
+
 .info-rechts h4 {
   background: #6acaf0;
   color: white;
@@ -340,6 +379,7 @@ a {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
 .info-rechts div {
   display: flex;
   align-items: center;
@@ -349,7 +389,7 @@ a {
   box-sizing: border-box;
 }
 
-/* Style for the footer */
+/* Stijlen voor de footer sectie */
 .footer {
   background-color: #88d4dc;
   color: white;
@@ -369,6 +409,7 @@ a {
   margin: 0;
 }
 
+/* Stijlen voor sociale pictogrammen in de footer sectie */
 .social-icons {
   display: flex;
 }
