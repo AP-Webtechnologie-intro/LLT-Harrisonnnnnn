@@ -122,12 +122,6 @@ img {
   overflow: hidden;
 }
 
-footer {
-  color: black;
-  text-align: center;
-  padding: 20px;
-}
-
 .social-icons i {
   font-size: 24px;
   margin: 0 10px;
@@ -235,6 +229,7 @@ footer {
   z-index: 0; /* Zorg ervoor dat de kaart onder de banner ligt */
   padding-top: 30px; /* Of pas de gewenste padding-top aan */
   margin-top: 20px; /* Of pas de gewenste margin-top aan */
+  margin-bottom: 20px;
 }
 .hero-btn red-btn {
   background-color: #6acaf0;
@@ -352,4 +347,38 @@ a {
   color: #6acaf0;
   padding: 8px;
   box-sizing: border-box;
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #88d4dc;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; /* Voeg deze regel toe om items in kolommen te plaatsen */
+  align-items: center; /* Voeg deze regel toe om items in het midden te centreren */
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons .icon {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons .icon i {
+  font-size: 24px;
 }
