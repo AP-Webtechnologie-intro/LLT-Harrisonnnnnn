@@ -331,7 +331,7 @@ h3 {
   margin: 20px;
 }
 
-/* Stijlen voor contactkolom sectie */
+/* Stijlen voor contactkolom  */
 .contact-col {
   flex-basis: 48%;
   margin: 30px;
@@ -344,14 +344,14 @@ a {
   text-decoration: none;
 }
 
-/* Stijlen voor informatietabel sectie */
+/* Stijlen voor informatietabel  */
 .info-tabel {
   width: 80%;
   margin: auto;
   padding: 60px 0;
 }
 
-/* Stijlen voor linkerkolom in informatietabel sectie */
+/* Stijlen voor linkerkolom in informatietabel  */
 .info-links {
   flex-basis: 65%;
 }
@@ -367,7 +367,7 @@ a {
   margin: 30px 0;
 }
 
-/* Stijlen voor rechterkolom in informatietabel sectie */
+/* Stijlen voor rechterkolom in informatietabel  */
 .info-rechts {
   flex-basis: 32%;
 }
@@ -401,15 +401,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column; /* Voeg deze regel toe om items in kolommen te plaatsen */
-  align-items: center; /* Voeg deze regel toe om items in het midden te centreren */
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-content p {
   margin: 0;
 }
 
-/* Stijlen voor sociale pictogrammen in de footer sectie */
+/* Stijlen voor sociale pictogrammen in de footer  */
 .social-icons {
   display: flex;
 }
